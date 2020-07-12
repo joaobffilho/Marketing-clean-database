@@ -1,7 +1,7 @@
 # Marketing-clean-database
 #I did a script to clean data to send emails and SMS faster.
 #Tratamento Responde Aí - Emails
-import pandas as pd
+```import pandas as pd
 import numpy as np
 n=2
 nome='mlkd'
@@ -35,3 +35,4 @@ elif n==4:
 else:
     finalfi=finalframe
     finalfi.to_csv(nome+'.csv')
+```
